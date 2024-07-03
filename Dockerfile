@@ -4,5 +4,5 @@ RUN npm i -g nodemon
 WORKDIR /server
 COPY package.json package.json
 RUN npm install
-# ENTRYPOINT [ "node", "./src/index.js" ]
-ENTRYPOINT [ "npm", "run", "dev" ]
+ENTRYPOINT [ "node", "./src/index.js" ]
+# ENTRYPOINT [ "npm", "run", "dev" ]
